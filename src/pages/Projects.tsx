@@ -6,67 +6,56 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: 'Sistema de Automação Web',
-      description: 'Automação completa para coleta e processamento de dados web usando Selenium e BeautifulSoup. Sistema robusto com tratamento de erros e logs detalhados.',
-      technologies: ['Python', 'Selenium', 'BeautifulSoup', 'Pandas', 'SQLite'],
+      description: 'Sistema de Automação de coleta de dados de empresas para envio de mensagens com trafego orgânico, integrado com banco de dados e envio de database via discord bot.',
+      technologies: ['Python', 'Google', 'SQLModel', 'SQL', 'Discord'],
       category: 'Automação',
       icon: Zap,
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vitorvzp/Scrpr',
+      liveUrl: 'https://github.com/Vitorvzp/Scrpr',
       color: 'from-blue-500 to-purple-600'
     },
     {
       id: 2,
-      title: 'API REST com FastAPI',
-      description: 'API completa para gerenciamento de dados com autenticação JWT, documentação automática e deploy em Docker. Inclui testes unitários e CI/CD.',
-      technologies: ['Python', 'FastAPI', 'SQLAlchemy', 'PostgreSQL', 'Docker', 'JWT'],
+      title: 'API de Banco de Dados com Flask',
+      description: 'API para busca de usuários, funcionários ou produtos de um banco de dados com 300 Mil Usuários, 50 Mil Funcionários, 5 Mil Produtos, com envio de log de IP e localização triangulada a cada novo acesso via discord bot.',
+      technologies: ['Python', 'Flask', 'SQLAlchemy', 'SQL'],
       category: 'Backend',
       icon: Database,
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vitorvzp/API',
+      liveUrl: 'https://github.com/Vitorvzp/API',
       color: 'from-green-500 to-teal-600'
     },
     {
       id: 3,
-      title: 'Dashboard de Data Science',
-      description: 'Aplicação web interativa para análise e visualização de dados com gráficos dinâmicos. Processamento de grandes volumes de dados em tempo real.',
-      technologies: ['Python', 'Streamlit', 'Plotly', 'Pandas', 'NumPy', 'Matplotlib'],
+      title: 'Discord Bot Multi-Funções',
+      description: 'Bot de discord para multifunções integrado com ia para conversa, comandos de criptografia e descriptografia privadas (Criada por Mim) de texto.',
+      technologies: ['Python', 'Discord', 'SQL', 'SQLModel', 'Google'],
       category: 'Data Science',
       icon: Brain,
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vitorvzp/DiscordBot',
+      liveUrl: 'https://github.com/Vitorvzp/DiscordBot',
       color: 'from-orange-500 to-red-600'
     },
     {
       id: 4,
-      title: 'Chatbot Inteligente',
-      description: 'Bot conversacional com processamento de linguagem natural, integração com APIs externas e aprendizado contínuo. Interface web responsiva.',
-      technologies: ['Python', 'NLTK', 'Flask', 'JavaScript', 'HTML/CSS', 'OpenAI API'],
+      title: 'Portifólio Integrado com Chatobot',
+      description: 'Portifólio integrado com chatbot personalizado que conhece cada detalhe sobre mim, e com sistema de pesquisa em base com meus dados.',
+      technologies: ['Python', 'JavaScript', 'HTML/CSS', 'Google', 'Typescript'],
       category: 'IA & Machine Learning',
       icon: Bot,
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vitorvzp/sb1-odhzazw6',
+      liveUrl: 'https://github.com/Vitorvzp/sb1-odhzazw6',
       color: 'from-purple-500 to-pink-600'
     },
     {
       id: 5,
-      title: 'Sistema de Gestão Escolar',
-      description: 'Aplicação desktop completa para gestão de alunos, notas e frequência. Interface intuitiva com relatórios automatizados e backup de dados.',
-      technologies: ['Python', 'PyQt5', 'SQLite', 'Matplotlib', 'ReportLab'],
-      category: 'Desktop',
-      icon: Code2,
-      githubUrl: '#',
-      liveUrl: '#',
-      color: 'from-indigo-500 to-blue-600'
-    },
-    {
-      id: 6,
-      title: 'E-commerce Responsivo',
-      description: 'Loja virtual completa com carrinho de compras, sistema de pagamento, painel administrativo e integração com APIs de frete.',
-      technologies: ['Django', 'PostgreSQL', 'JavaScript', 'Bootstrap', 'Stripe API'],
+      title: 'Cardápio Escolar Responsivo',
+      description: 'Cardápio virtual completo para trabalho escolar, com carrinho de compras, sistema de pagamento (Teste)',
+      technologies: ['JavaScript', 'HTML/CSS'],
       category: 'Web',
       icon: Globe,
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vitorvzp/Gourmet',
+      liveUrl: 'https://github.com/Vitorvzp/Gourmet',
       color: 'from-teal-500 to-green-600'
     }
   ];
@@ -198,11 +187,11 @@ const Projects: React.FC = () => {
               Mais Projetos no GitHub
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Explore mais de 50+ repositórios no meu GitHub, incluindo projetos pessoais, 
-              contribuições open source e experimentos com novas tecnologias.
+              Explore os repositórios no meu GitHub, incluindo projetos pessoais, 
+              e experimentos com novas tecnologias.
             </p>
             <a
-              href="https://github.com"
+              href="https://github.com/Vitorvzp"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white font-semibold rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg"

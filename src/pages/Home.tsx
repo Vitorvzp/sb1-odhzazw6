@@ -5,16 +5,16 @@ const Home: React.FC = () => {
   const skills = [
     { name: 'Python', level: 95, icon: '🐍' },
     { name: 'Data Science', level: 85, icon: '📊' },
-    { name: 'Automação', level: 90, icon: '🤖' },
-    { name: 'Bancos de Dados', level: 80, icon: '💾' },
-    { name: 'Web Development', level: 75, icon: '🌐' },
-    { name: 'IA & Machine Learning', level: 70, icon: '🧠' },
+    { name: 'Automação', level: 96.3, icon: '🤖' },
+    { name: 'Bancos de Dados', level: 75, icon: '💾' },
+    { name: 'Web Development', level: 22, icon: '🌐' },
+    { name: 'IA & Machine Learning', level: 55, icon: '🧠' },
   ];
 
   const technologies = [
-    'Python', 'Django', 'Flask', 'FastAPI', 'Pandas', 'NumPy',
-    'SQLAlchemy', 'PostgreSQL', 'MongoDB', 'React', 'TypeScript',
-    'Git', 'Docker', 'AWS', 'Tkinter', 'PyQt', 'Kivy'
+    'Python','Flask','Pandas',
+    'SQLAlchemy', 'SQL', 'Sqlmodel',
+    'Git', 'Docker', 'Tkinter',
   ];
 
   return (
@@ -128,7 +128,7 @@ const Home: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="glass rounded-3xl p-12 scale-in">
             <h2 className="text-3xl font-bold text-white mb-6">
-              Pronto para colaborar?
+              Quer Saber Mais?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
               Estou sempre aberto a novos desafios e oportunidades de aprendizado.
@@ -136,10 +136,10 @@ const Home: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-lg hover:from-green-600 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-green-500/25">
-                Ver Projetos
+                Meus Projetos
               </button>
               <button className="px-8 py-3 glass border-green-400/50 text-green-400 font-semibold rounded-lg hover:bg-green-400/10 transform hover:scale-105 transition-all duration-300">
-                Conversar no Chatbot
+                Conversar com minha IA
               </button>
             </div>
           </div>

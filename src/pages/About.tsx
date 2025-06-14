@@ -12,25 +12,19 @@ const About: React.FC = () => {
     {
       year: '2019',
       title: 'Primeiros Projetos',
-      description: 'Desenvolvi meus primeiros projetos de automação e pequenas aplicações desktop.',
+      description: 'Desenvolvi meus primeiros projetos de pequenas aplicações desktop.',
       icon: Target
     },
     {
       year: '2021',
-      title: 'Web Development',
-      description: 'Expandiu conhecimentos para desenvolvimento web com HTML, CSS, JavaScript e frameworks Python.',
+      title: 'Cursando',
+      description: 'Comecei Curso de Python e a me aprofundar realmente aos estudos!',
       icon: Globe
     },
     {
-      year: '2023',
-      title: 'Data Science & IA',
-      description: 'Mergulhei no mundo da ciência de dados e inteligência artificial.',
-      icon: Brain
-    },
-    {
-      year: '2024',
-      title: 'Especialização',
-      description: 'Focando em soluções fullstack e aplicações de IA em projetos reais.',
+      year: '2025',
+      title: 'Data Science & IA, Database e Web Dev.',
+      description: 'Focando em soluções fullstack e aplicações de IA e Banco de Dados em projetos reais, estudando mais sobre desenvolvimento web',
       icon: Database
     }
   ];
@@ -61,17 +55,17 @@ const About: React.FC = () => {
   const expertise = [
     {
       category: 'Backend Development',
-      skills: ['Python', 'Django', 'Flask', 'FastAPI', 'SQLAlchemy', 'RESTful APIs'],
+      skills: ['Python', 'Flask', 'SQLAlchemy', 'SQLmodel', 'APIs'],
       icon: Database
     },
     {
       category: 'Data Science & IA',
-      skills: ['Pandas', 'NumPy', 'Scikit-learn', 'TensorFlow', 'Machine Learning', 'Data Analysis'],
+      skills: ['Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning', 'Data Analysis'],
       icon: Brain
     },
     {
       category: 'Frontend & Mobile',
-      skills: ['HTML/CSS/JS', 'React', 'TypeScript', 'Kivy', 'PyQt', 'Tkinter'],
+      skills: ['HTML/CSS/JS', 'React', 'TypeScript', 'Tkinter'],
       icon: Globe
     }
   ];
@@ -215,11 +209,11 @@ const About: React.FC = () => {
             </h2>
             <p className="text-lg text-gray-200 leading-relaxed mb-8">
               Tenho facilidade em trabalhar com <span className="text-green-400 font-semibold">Git</span>, 
-              bancos <span className="text-green-400 font-semibold">SQL/NoSQL</span> e novas tecnologias. 
+              bancos <span className="text-green-400 font-semibold">SQL</span> e novas tecnologias. 
               Sou autodidata, aprendo com cursos, vídeos, projetos pessoais e desafios próprios.
             </p>
             <p className="text-xl text-green-400 font-semibold">
-              "Sempre buscando evoluir tecnicamente e pessoalmente, focando em soluções que fazem a diferença."
+              "Sempre buscando evoluir tecnicamente e pessoalmente, focando em soluções automáticas que fazem a diferença."
             </p>
           </div>
         </div>
